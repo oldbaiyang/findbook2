@@ -14,8 +14,8 @@ export default defineConfig({
   extends: blogTheme,
   // base,
   lang: 'zh-cn',
-  title: '棋飞博客',
-  description: '硅基文明终将统治地球',
+  title: '棋飞找书网',
+  description: ' -pdf,txt,mobi,azw3,epub 把时间交给阅读',
   lastUpdated: true,
   // 详见：https://vitepress.dev/zh/reference/site-config#head
   head: [
@@ -26,13 +26,13 @@ export default defineConfig({
       'script',
       {
         async: '',
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-P7014N5P91'
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-QRC0BZBNWR'
       }
     ],
     [
       'script',
       {},
-      "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-P7014N5P91');"
+      "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-QRC0BZBNWR');"
     ]
   ],
   themeConfig: {
@@ -54,18 +54,17 @@ export default defineConfig({
     //   text: '去 GitHub 上编辑内容'
     // },
     nav: [
-      { text: '首页', link: '/' },
-      { text: '网址导航', link: 'https://nav.qifeiai.top' },
-      { text: '程序员', link: 'https://qifeiai.top/?tag=%E7%A8%8B%E5%BA%8F%E5%91%98' },
-      {
-        text: '折叠菜单',
-        items: [
-          {
-            text: '1',
-            link: 'https://qifeiai.top'
-          },
-        ]
-      },
+      { text: '首页', link: 'https://findbook.org' },
+      { text: '人文社科', link: 'http://findbook.org/?tag=%E4%BA%BA%E6%96%87%E7%A4%BE%E7%A7%91'},
+      // {
+      //   text: '折叠菜单',
+      //   items: [
+      //     {
+      //       text: '1',
+      //       link: 'https://qifeiai.top'
+      //     },
+      //   ]
+      // },
       // { text: '主题作者', link: 'https://sugarat.top/aboutme.html' }
     ],
     socialLinks: [
@@ -76,6 +75,6 @@ export default defineConfig({
     ],
   },
   sitemap: {
-    hostname: 'https://qifeiai.top'
+    hostname: 'https://findbook.org'
   }
 })

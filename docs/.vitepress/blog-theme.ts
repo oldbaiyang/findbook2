@@ -49,25 +49,18 @@ const blogTheme = getThemeConfig({
   // 友链
   friend: [
     {
-      nickname: '棋飞找书',
-      des: '棋飞找书网 -pdf,txt,mobi,azw3,epub 把时间交给阅读',
+      nickname: '棋飞博客',
+      des: '硅基生命终将统治地球',
       avatar:
-        'https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/202405151411920.png',
-      url: 'https://findbook.org',
+        'https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/logo.png',
+      url: 'https://qifeiai.top',
     },
     {
-      nickname: '粥里有勺糖',
-      des: '你的指尖用于改变世界的力量',
+      nickname: '网址导航',
+      des: '常用网站收藏夹',
       avatar:
-        'https://img.cdn.sugarat.top/mdImg/MTY3NDk5NTE2NzAzMA==674995167030',
-      url: 'https://sugarat.top',
-    },
-    {
-      nickname: 'Vitepress',
-      des: 'Vite & Vue Powered Static Site Generator',
-      avatar:
-        'https://vitepress.dev/vitepress-logo-large.webp',
-      url: 'https://vitepress.dev/',
+        'https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/202405231233987.png',
+      url: 'https://nav.qifeiai.top',
     },
   ],
 
